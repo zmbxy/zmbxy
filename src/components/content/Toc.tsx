@@ -1,4 +1,4 @@
-import clsx from 'clsx';
+import Link from "next/link";
 
 function Toc() {
   return (
@@ -7,7 +7,7 @@ function Toc() {
         <h5 className="text-slate-900 font-semibold mb-4 text-sm leading-6 dark:text-slate-100">目录索引</h5>
         <ul className="text-slate-700 text-sm leading-6">
           <li>
-            <a className="block py-1 font-medium text-sky-500 dark:text-sky-400">前言</a>
+            <Link className="block py-1 font-medium text-sky-500 dark:text-sky-400" href=''>前言</Link>
           </li>
         </ul>
       </div>

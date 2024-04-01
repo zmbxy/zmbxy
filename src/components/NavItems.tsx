@@ -4,23 +4,23 @@ function NavItems() {
   return (
     <>
       <li>
-        <Link href="/notes">
-          <a className="hover:text-sky-500 dark:hover:text-sky-400">笔记</a>
+        <Link href="/notes" className="hover:text-sky-500 dark:hover:text-sky-400">
+          笔记
         </Link>
       </li>
       <li>
-        <Link href="/code">
-          <a className="hover:text-sky-500 dark:hover:text-sky-400">代码</a>
+        <Link href="/code" className="hover:text-sky-500 dark:hover:text-sky-400">
+          代码
         </Link>
       </li>
       <li>
-        <Link href="/essay">
-          <a className="hover:text-sky-500 dark:hover:text-sky-400">随笔</a>
+        <Link href="/essay" className="hover:text-sky-500 dark:hover:text-sky-400">
+          随笔
         </Link>
       </li>
       <li>
-        <Link href="/about">
-          <a className="hover:text-sky-500 dark:hover:text-sky-400">关于我</a>
+        <Link href="/about" className="hover:text-sky-500 dark:hover:text-sky-400">
+          关于我
         </Link>
       </li>
     </>
